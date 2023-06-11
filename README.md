@@ -23,4 +23,4 @@
    {"type":1,"content":"peng,1"}    
    {"type":1,"content":"say,1,2,3"}    
 9. 效果图
-   <img src="https://github.com/XiaoTe33/majiang/tree/master/xiaoguo.jpg">
+   https://github.com/XiaoTe33/majiang/tree/master/xiaoguo.jpg
