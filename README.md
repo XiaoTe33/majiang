@@ -11,7 +11,8 @@
    > password:
 6. > 登录 localhost:8080/user/login    
    > username:    
-   > password:    
+   > password:     
+   > 得到accessToken
 7. 创建四个号连接ws http://wstool.js.org/    
    ws://127.0.0.1:8080/join/1?accessToken=[accessToken]    
 8. 命令    
@@ -24,3 +25,5 @@
    {"type":1,"content":"say,1,2,3"}    
 9. 效果图
    https://github.com/XiaoTe33/majiang/tree/master/xiaoguo.jpg
+10. 服务器连接     
+    ws://39.101.72.18:8080/join/:room/accessToken=[accessToken]
