@@ -49,6 +49,10 @@ func NewCards() Cards {
 
 var rooms = [1000]Room{}
 
+func Rooms(idx int) Room {
+	return rooms[idx]
+}
+
 // Info 信息打印
 func (r *Room) Info(p *Player) {
 	fmt.Print("\033[H\033[2J")

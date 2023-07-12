@@ -19,6 +19,9 @@ func init() {
 	viper.SetConfigFile("./etc/conf.yaml")
 	err := viper.ReadInConfig()
 	if err != nil {
+		viper.SetConfigFile("../etc/conf.yaml")
+		err = viper.ReadInConfig()
+	} else if err != nil {
 		fmt.Println("err: read config failed...")
 	}
 	dsn := viper.GetString("Mysql.User") +
