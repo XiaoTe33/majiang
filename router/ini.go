@@ -22,4 +22,5 @@ func InitRouters() {
 	r.GET("/join/:room", JWT(), joinRoom)
 
 	_ = r.Run()
+
 }
